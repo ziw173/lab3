@@ -11,7 +11,7 @@ $(document).ready(function() {
 function initializePage() {
 	$("#testjs").click(function(e) {
 		//$('.jumbotron h1').text("Javascript is connected");
-		$('.jumbotron h1').text("I am a fish");
+		$('.jumbotron h1').text("cattttt");
 		$("#testjs").text("Please wait...");
 		//$("#testjs").addClass("active");
 		$(".jumbotron p").toggleClass("active");
@@ -37,7 +37,7 @@ function projectClick(e) { 
    		$(containingProject).append("<div class='project-description'><p>Description of the project.</p></div>");
 	} 
 	else {
-   		description.html("<p>Stop clicking on me! You just did it at " + (new Date()) + "</p>");
+   		// description.html("<p>Stop clicking on me! You just did it at " + (new Date()) + "</p>");
    		description.fadeOut()
 	}
 
